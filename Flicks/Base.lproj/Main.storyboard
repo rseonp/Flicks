@@ -47,7 +47,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="overviewLabel" destination="svF-Yt-19g" id="acW-Z7-gua"/>
-                                            <outlet property="posterView" destination="tAy-j7-Spg" id="Bnf-3E-u4U"/>
+                                            <outlet property="posterView" destination="tAy-j7-Spg" id="7i1-AE-gOD"/>
                                             <outlet property="titleLabel" destination="CeP-Wj-FtV" id="9d6-dX-MLo"/>
                                         </connections>
                                     </tableViewCell>
@@ -62,7 +62,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="162" y="328"/>
+            <point key="canvasLocation" x="31" y="63"/>
         </scene>
     </scenes>
 </document>
