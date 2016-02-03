@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		5709D0711C52F90B006CEFA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5709D0701C52F90B006CEFA5 /* AppDelegate.swift */; };
 		5709D0761C52F90B006CEFA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5709D0741C52F90B006CEFA5 /* Main.storyboard */; };
-		5709D0781C52F90B006CEFA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5709D0771C52F90B006CEFA5 /* Assets.xcassets */; };
 		5709D07B1C52F90B006CEFA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5709D0791C52F90B006CEFA5 /* LaunchScreen.storyboard */; };
 		5709D0831C52F97F006CEFA5 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5709D0821C52F97F006CEFA5 /* MoviesViewController.swift */; };
 		5709D0861C53019B006CEFA5 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5709D0851C53019B006CEFA5 /* MovieCell.swift */; };
+		573C1A441C6192CE00C7FBEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573C1A431C6192CE00C7FBEB /* Assets.xcassets */; };
 		57BCF40E1C5ECFD4003F0780 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCF40D1C5ECFD4003F0780 /* DetailViewController.swift */; };
 		F31776731556EBFABD6D9281 /* Pods_Flicks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079586AC558325324A8001DE /* Pods_Flicks.framework */; };
 /* End PBXBuildFile section */
@@ -22,11 +22,11 @@
 		5709D06D1C52F90B006CEFA5 /* Flicks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flicks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5709D0701C52F90B006CEFA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5709D0751C52F90B006CEFA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5709D0771C52F90B006CEFA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5709D07A1C52F90B006CEFA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5709D07C1C52F90B006CEFA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5709D0821C52F97F006CEFA5 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		5709D0851C53019B006CEFA5 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		573C1A431C6192CE00C7FBEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		57BCF40D1C5ECFD4003F0780 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E95A001F9E055A012CDC6C76 /* Pods-Flicks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flicks.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flicks/Pods-Flicks.release.xcconfig"; sourceTree = "<group>"; };
 		F4D957369603F329E1DABE5B /* Pods-Flicks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flicks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flicks/Pods-Flicks.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,8 +78,8 @@
 				5709D0841C530173006CEFA5 /* Views */,
 				5709D0701C52F90B006CEFA5 /* AppDelegate.swift */,
 				5709D0741C52F90B006CEFA5 /* Main.storyboard */,
-				5709D0771C52F90B006CEFA5 /* Assets.xcassets */,
 				5709D0791C52F90B006CEFA5 /* LaunchScreen.storyboard */,
+				573C1A431C6192CE00C7FBEB /* Assets.xcassets */,
 				5709D07C1C52F90B006CEFA5 /* Info.plist */,
 			);
 			path = Flicks;
@@ -172,7 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5709D07B1C52F90B006CEFA5 /* LaunchScreen.storyboard in Resources */,
-				5709D0781C52F90B006CEFA5 /* Assets.xcassets in Resources */,
+				573C1A441C6192CE00C7FBEB /* Assets.xcassets in Resources */,
 				5709D0761C52F90B006CEFA5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
